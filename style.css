@@ -9,7 +9,7 @@ body {
 }
 .top-navbar {
 	height:75px;
-	background-color: purple;
+	background-color: rgba(182, 226, 250, 0.8);
 	position: fixed;
 	z-index: 1000;
 	width:100%;
@@ -17,7 +17,7 @@ body {
 	box-shadow: 0 0 10px 0;
 }
 .navbar {
-	background-color: purple;
+	background-color: rgba(182, 226, 250, 0.8);
 	padding-left: 100px;
 	padding-right: 30px;
 	height: 75px;
@@ -26,12 +26,13 @@ body {
 	width: 100%;
 	position: fixed;
 	z-index: 10;
+	border: none;
 }
 .logo {
 	font-family: 'Pecita', sans-serif;
 	color: white;
 	font-size: 48px;
-	text-shadow: 7px 0px 10px black;
+	text-shadow: 7px 0px 7px black;
 }
 .top-navbar .brand {
 	margin-left: 30px;
@@ -56,7 +57,6 @@ a > h1 {
 }
 
 .navbar-nav li:hover {
-	box-shadow: 0 10px 35px 0 #660068;
 	text-decoration: none;
 	color: #A1A0A0;
 }
@@ -98,6 +98,7 @@ body {
 	max-width: 100%;
 	height: auto;
 	border-radius: 50%;
+	box-shadow: 0 3px 12px rgba(0, 0, 0, 0.5);
 }
 .flex {
 	display: flex;
@@ -160,7 +161,7 @@ body {
 	width: 400px;
 	height: auto;
 	max-width: 100%;
-	margin: 10px 10px;
+	padding: 2px;
 }
 .contact {
 	width: 80%;
@@ -173,7 +174,7 @@ body {
 	padding-left: 50px;
 	padding-bottom: 100px;
 	box-shadow: 0 2px 1px 1px #9F9F9F;
-	background-color: #EEEEEE;
+	background-color: rgba(238, 238, 238, 0.8);
 	box-shadow: 0px 2px 5px 1px #9F9F9F;
 	padding-right: 50px;
 }
@@ -244,7 +245,7 @@ input:focus, textarea:focus {
 	display: none;
 }
 #collapse-navbar {
-	background-color: purple;
+	background-color: rgba(182, 226, 250, 0);
 }
 
 .selected {
@@ -305,7 +306,7 @@ input:focus, textarea:focus {
 	font-size: 14pt;
 }
 .about {
-	background-color: #AAAAAA;
+	background-color: rgba(170, 170, 170, 0.6);
 	padding-top: 75px;
 	padding-bottom: 75px;
 }
@@ -353,8 +354,15 @@ input:focus, textarea:focus {
 .name {
 	color: purple;
 }
+.port {
+	width: 300px;
+	height: 300px;
+	border: 1px solid;
+	border-color: #EEEEEE;
+	overflow: hidden;
+}
 .footer {
-	background-color: purple;
+	background-color: rgba(182, 226, 250, 0.8);
 	height: 75px;
 	color: white;
 	text-align: center;
