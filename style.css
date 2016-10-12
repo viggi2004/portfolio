@@ -9,7 +9,6 @@ body {
 }
 .top-navbar {
 	height:75px;
-	background-color: rgba(182, 226, 250, 0.8);
 	position: fixed;
 	z-index: 1000;
 	width:100%;
@@ -17,7 +16,7 @@ body {
 	box-shadow: 0 0 10px 0;
 }
 .navbar {
-	background-color: rgba(182, 226, 250, 0.8);
+	background-color: rgba(24, 32, 11, 0.9);
 	padding-left: 100px;
 	padding-right: 30px;
 	height: 75px;
@@ -356,14 +355,14 @@ input:focus, textarea:focus {
 }
 .port {
 	width: 300px;
-	height: 300px;
+	height: 200px;
 	border: 1px solid;
 	border-color: #EEEEEE;
 	overflow: hidden;
 	margin: 5px;
 }
 .footer {
-	background-color: rgba(182, 226, 250, 0.8);
+	background-color: rgba(24, 32, 11, 0.9);
 	height: 75px;
 	color: white;
 	text-align: center;
