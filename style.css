@@ -159,7 +159,7 @@ body {
 }
 .placeholders img {
 	width: 400px;
-	height: auto;
+	height: 300px;
 	max-width: 100%;
 	padding: 2px;
 }
@@ -360,6 +360,7 @@ input:focus, textarea:focus {
 	border: 1px solid;
 	border-color: #EEEEEE;
 	overflow: hidden;
+	margin: 5px;
 }
 .footer {
 	background-color: rgba(182, 226, 250, 0.8);
